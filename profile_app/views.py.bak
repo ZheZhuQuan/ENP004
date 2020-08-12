@@ -1,0 +1,10 @@
+import logging
+from django.views import generic
+
+
+class IndexView(generic.TemplateView):
+    template_name = "index.html"
+
+
+class EmployeeListView(generic.ListView):
+    template_name = "ENP001employeelist.html"

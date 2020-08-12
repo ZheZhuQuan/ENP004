@@ -1,0 +1,1175 @@
+[INFO]	asctime:2020-08-07 14:26:19,732	module:autoreload	message:Watching for file changes with StatReloader	process:8784	thread:14936
+[INFO]	asctime:2020-08-07 14:30:53,496	module:autoreload	message:Watching for file changes with StatReloader	process:9644	thread:15796
+[INFO]	asctime:2020-08-08 23:09:22,260	module:autoreload	message:Watching for file changes with StatReloader	process:17628	thread:16744
+[INFO]	asctime:2020-08-08 23:10:24,006	module:autoreload	message:Watching for file changes with StatReloader	process:6988	thread:13540
+[INFO]	asctime:2020-08-08 23:12:47,284	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\Profile\models.py changed, reloading.	process:6988	thread:13540
+[INFO]	asctime:2020-08-08 23:12:48,985	module:autoreload	message:Watching for file changes with StatReloader	process:19360	thread:5460
+[INFO]	asctime:2020-08-11 10:17:12,233	module:autoreload	message:Watching for file changes with StatReloader	process:10028	thread:3992
+[ERROR]	asctime:2020-08-11 10:17:51,062	module:log	message:Internal Server Error: /	process:10028	thread:7672
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\middleware.py", line 99, in __call__
+    bits[-2] += toolbar.render_toolbar()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\toolbar.py", line 69, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR]	asctime:2020-08-11 10:17:51,068	module:basehttp	message:"GET / HTTP/1.1" 500 137575	process:10028	thread:7672
+[ERROR]	asctime:2020-08-11 10:17:51,460	module:log	message:Internal Server Error: /favicon.ico	process:10028	thread:7672
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\middleware.py", line 99, in __call__
+    bits[-2] += toolbar.render_toolbar()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\toolbar.py", line 69, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR]	asctime:2020-08-11 10:17:51,462	module:basehttp	message:"GET /favicon.ico HTTP/1.1" 500 133212	process:10028	thread:7672
+[INFO]	asctime:2020-08-11 10:51:45,927	module:autoreload	message:Watching for file changes with StatReloader	process:12944	thread:10376
+[ERROR]	asctime:2020-08-11 10:51:54,337	module:log	message:Internal Server Error: /	process:12944	thread:11644
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 10:51:54,426	module:log	message:Internal Server Error: /	process:12944	thread:11644
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\middleware.py", line 99, in __call__
+    bits[-2] += toolbar.render_toolbar()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\toolbar.py", line 69, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR]	asctime:2020-08-11 10:51:54,430	module:basehttp	message:"GET / HTTP/1.1" 500 136486	process:12944	thread:11644
+[ERROR]	asctime:2020-08-11 10:51:54,759	module:log	message:Internal Server Error: /favicon.ico	process:12944	thread:11644
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\middleware.py", line 99, in __call__
+    bits[-2] += toolbar.render_toolbar()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\toolbar.py", line 69, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR]	asctime:2020-08-11 10:51:54,761	module:basehttp	message:"GET /favicon.ico HTTP/1.1" 500 133878	process:12944	thread:11644
+[INFO]	asctime:2020-08-11 10:59:22,544	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\urls.py changed, reloading.	process:12944	thread:10376
+[INFO]	asctime:2020-08-11 10:59:23,817	module:autoreload	message:Watching for file changes with StatReloader	process:3004	thread:8896
+[INFO]	asctime:2020-08-11 11:03:13,831	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_dev.py changed, reloading.	process:3004	thread:8896
+[INFO]	asctime:2020-08-11 11:03:15,174	module:autoreload	message:Watching for file changes with StatReloader	process:2964	thread:9868
+[INFO]	asctime:2020-08-11 11:04:08,235	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\urls.py changed, reloading.	process:2964	thread:9868
+[INFO]	asctime:2020-08-11 11:04:09,563	module:autoreload	message:Watching for file changes with StatReloader	process:12596	thread:12572
+[ERROR]	asctime:2020-08-11 11:04:13,855	module:log	message:Internal Server Error: /	process:12596	thread:2164
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 11:04:13,888	module:basehttp	message:"GET / HTTP/1.1" 500 77604	process:12596	thread:2164
+[INFO]	asctime:2020-08-11 11:04:13,932	module:basehttp	message:"GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404	process:12596	thread:12260
+[INFO]	asctime:2020-08-11 11:04:13,942	module:basehttp	message:"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12791	process:12596	thread:9628
+[INFO]	asctime:2020-08-11 11:04:13,945	module:basehttp	message:"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 14984	process:12596	thread:2164
+[INFO]	asctime:2020-08-11 11:04:13,986	module:basehttp	message:"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 41	process:12596	thread:2164
+[WARNING]	asctime:2020-08-11 11:04:14,093	module:log	message:Not Found: /favicon.ico	process:12596	thread:2164
+[WARNING]	asctime:2020-08-11 11:04:14,093	module:basehttp	message:"GET /favicon.ico HTTP/1.1" 404 11214	process:12596	thread:2164
+[INFO]	asctime:2020-08-11 12:32:49,737	module:autoreload	message:Watching for file changes with StatReloader	process:8920	thread:900
+[INFO]	asctime:2020-08-11 12:33:05,969	module:basehttp	message:"GET /admin HTTP/1.1" 301 0	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:33:06,025	module:basehttp	message:"GET /admin/ HTTP/1.1" 302 0	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:33:06,372	module:basehttp	message:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 10938	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:33:06,417	module:basehttp	message:"GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404	process:8920	thread:15120
+[INFO]	asctime:2020-08-11 12:33:06,417	module:basehttp	message:"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12791	process:8920	thread:13148
+[INFO]	asctime:2020-08-11 12:33:06,418	module:basehttp	message:"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 14984	process:8920	thread:4628
+[INFO]	asctime:2020-08-11 12:33:06,421	module:basehttp	message:"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 41	process:8920	thread:15120
+[INFO]	asctime:2020-08-11 12:33:06,437	module:basehttp	message:"GET /static/admin/css/base.css HTTP/1.1" 200 16378	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:33:06,440	module:basehttp	message:"GET /static/admin/css/responsive.css HTTP/1.1" 200 18052	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:33:06,444	module:basehttp	message:"GET /static/admin/css/fonts.css HTTP/1.1" 200 423	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:33:06,449	module:basehttp	message:"GET /static/admin/css/login.css HTTP/1.1" 200 1233	process:8920	thread:212
+[INFO]	asctime:2020-08-11 12:33:06,520	module:basehttp	message:"GET /static/debug_toolbar/img/djdt_vertical.png HTTP/1.1" 200 882	process:8920	thread:212
+[INFO]	asctime:2020-08-11 12:33:06,540	module:basehttp	message:"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:33:06,545	module:basehttp	message:"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:38:02,775	module:basehttp	message:"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:38:03,073	module:basehttp	message:"GET /admin/ HTTP/1.1" 200 12375	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:38:03,099	module:basehttp	message:"GET /static/admin/css/dashboard.css HTTP/1.1" 200 412	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:38:03,109	module:basehttp	message:"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:38:03,109	module:basehttp	message:"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:38:03,153	module:basehttp	message:"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:38:08,802	module:basehttp	message:"GET /admin/Accounts/customuser/add/ HTTP/1.1" 200 22958	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:38:08,843	module:basehttp	message:"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363	process:8920	thread:16196
+[INFO]	asctime:2020-08-11 12:38:08,852	module:basehttp	message:"GET /static/admin/css/forms.css HTTP/1.1" 200 8518	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:38:08,863	module:basehttp	message:"GET /static/admin/js/calendar.js HTTP/1.1" 200 7777	process:8920	thread:10740
+[INFO]	asctime:2020-08-11 12:38:08,864	module:basehttp	message:"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630	process:8920	thread:15180
+[INFO]	asctime:2020-08-11 12:38:08,871	module:basehttp	message:"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:38:08,873	module:basehttp	message:"GET /static/admin/css/widgets.css HTTP/1.1" 200 10322	process:8920	thread:15180
+[INFO]	asctime:2020-08-11 12:38:08,878	module:basehttp	message:"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20232	process:8920	thread:4344
+[INFO]	asctime:2020-08-11 12:38:08,882	module:basehttp	message:"GET /static/admin/js/core.js HTTP/1.1" 200 5723	process:8920	thread:16196
+[INFO]	asctime:2020-08-11 12:38:08,883	module:basehttp	message:"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530	process:8920	thread:15180
+[INFO]	asctime:2020-08-11 12:38:08,885	module:basehttp	message:"GET /static/admin/js/actions.js HTTP/1.1" 200 6766	process:8920	thread:10740
+[INFO]	asctime:2020-08-11 12:38:08,901	module:basehttp	message:"GET /static/admin/js/urlify.js HTTP/1.1" 200 8941	process:8920	thread:3156
+[INFO]	asctime:2020-08-11 12:38:08,908	module:basehttp	message:"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820	process:8920	thread:4344
+[INFO]	asctime:2020-08-11 12:38:08,924	module:basehttp	message:"GET /static/admin/js/change_form.js HTTP/1.1" 200 712	process:8920	thread:4344
+[INFO]	asctime:2020-08-11 12:38:08,929	module:basehttp	message:"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495	process:8920	thread:4344
+[INFO]	asctime:2020-08-11 12:38:08,983	module:basehttp	message:"GET /admin/jsi18n/ HTTP/1.1" 200 8752	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:38:09,085	module:basehttp	message:"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677	process:8920	thread:4344
+[INFO]	asctime:2020-08-11 12:38:09,093	module:basehttp	message:"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:38:17,878	module:basehttp	message:"GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:39:14,073	module:basehttp	message:"POST /admin/Accounts/customuser/add/ HTTP/1.1" 200 23281	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:39:14,229	module:basehttp	message:"GET /admin/jsi18n/ HTTP/1.1" 200 8752	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:39:27,627	module:basehttp	message:"POST /admin/Accounts/customuser/add/ HTTP/1.1" 302 0	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:39:27,964	module:basehttp	message:"GET /admin/Accounts/customuser/ HTTP/1.1" 200 13933	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:39:27,989	module:basehttp	message:"GET /static/admin/css/changelists.css HTTP/1.1" 200 6190	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 12:39:28,123	module:basehttp	message:"GET /admin/jsi18n/ HTTP/1.1" 200 8752	process:8920	thread:4344
+[INFO]	asctime:2020-08-11 12:39:28,143	module:basehttp	message:"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436	process:8920	thread:4344
+[INFO]	asctime:2020-08-11 12:39:28,144	module:basehttp	message:"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331	process:8920	thread:15840
+[INFO]	asctime:2020-08-11 17:11:17,030	module:autoreload	message:Watching for file changes with StatReloader	process:8312	thread:5252
+[INFO]	asctime:2020-08-11 18:49:07,046	module:autoreload	message:Watching for file changes with StatReloader	process:7632	thread:15276
+[ERROR]	asctime:2020-08-11 18:49:14,371	module:log	message:Internal Server Error: /	process:7632	thread:12328
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 18:49:14,427	module:basehttp	message:"GET / HTTP/1.1" 500 77759	process:7632	thread:12328
+[INFO]	asctime:2020-08-11 18:49:14,483	module:basehttp	message:"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 14984	process:7632	thread:12328
+[INFO]	asctime:2020-08-11 18:49:14,485	module:basehttp	message:"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12791	process:7632	thread:13996
+[INFO]	asctime:2020-08-11 18:49:14,489	module:basehttp	message:"GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404	process:7632	thread:132
+[INFO]	asctime:2020-08-11 18:49:14,493	module:basehttp	message:"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 41	process:7632	thread:13464
+[INFO]	asctime:2020-08-11 18:49:14,698	module:basehttp	message:"GET /static/debug_toolbar/img/djdt_vertical.png HTTP/1.1" 200 882	process:7632	thread:13464
+[INFO]	asctime:2020-08-11 18:50:10,846	module:autoreload	message:Watching for file changes with StatReloader	process:16904	thread:8748
+[ERROR]	asctime:2020-08-11 18:50:11,391	module:log	message:Internal Server Error: /	process:16904	thread:17288
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 18:50:11,433	module:basehttp	message:"GET / HTTP/1.1" 500 77765	process:16904	thread:17288
+[INFO]	asctime:2020-08-11 18:50:32,108	module:autoreload	message:Watching for file changes with StatReloader	process:14972	thread:21852
+[ERROR]	asctime:2020-08-11 18:50:35,658	module:log	message:Internal Server Error: /	process:14972	thread:19076
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 18:50:35,695	module:basehttp	message:"GET / HTTP/1.1" 500 77791	process:14972	thread:19076
+[INFO]	asctime:2020-08-11 18:51:02,096	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_dev.py changed, reloading.	process:14972	thread:21852
+[INFO]	asctime:2020-08-11 18:51:03,758	module:autoreload	message:Watching for file changes with StatReloader	process:1772	thread:17860
+[INFO]	asctime:2020-08-11 18:52:57,888	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_common.py changed, reloading.	process:1772	thread:17860
+[INFO]	asctime:2020-08-11 18:52:59,103	module:autoreload	message:Watching for file changes with StatReloader	process:20952	thread:20944
+[INFO]	asctime:2020-08-11 18:55:12,844	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_common.py changed, reloading.	process:20952	thread:20944
+[INFO]	asctime:2020-08-11 18:55:13,859	module:autoreload	message:Watching for file changes with StatReloader	process:9908	thread:21332
+[INFO]	asctime:2020-08-11 18:56:43,945	module:autoreload	message:Watching for file changes with StatReloader	process:22444	thread:15636
+[INFO]	asctime:2020-08-11 18:57:12,700	module:autoreload	message:Watching for file changes with StatReloader	process:5812	thread:14812
+[INFO]	asctime:2020-08-11 19:20:41,268	module:autoreload	message:Watching for file changes with StatReloader	process:18820	thread:14936
+[INFO]	asctime:2020-08-11 19:22:18,913	module:autoreload	message:Watching for file changes with StatReloader	process:25552	thread:24268
+[INFO]	asctime:2020-08-11 19:24:08,295	module:autoreload	message:Watching for file changes with StatReloader	process:25312	thread:25336
+[ERROR]	asctime:2020-08-11 19:24:15,647	module:log	message:Internal Server Error: /	process:25312	thread:20448
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 19:24:15,681	module:basehttp	message:"GET / HTTP/1.1" 500 79551	process:25312	thread:20448
+[INFO]	asctime:2020-08-11 19:32:54,550	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_dev.py changed, reloading.	process:25312	thread:25336
+[INFO]	asctime:2020-08-11 19:32:56,441	module:autoreload	message:Watching for file changes with StatReloader	process:22304	thread:3332
+[INFO]	asctime:2020-08-11 19:34:07,921	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_dev.py changed, reloading.	process:22304	thread:3332
+[INFO]	asctime:2020-08-11 19:34:09,703	module:autoreload	message:Watching for file changes with StatReloader	process:23744	thread:14584
+[INFO]	asctime:2020-08-11 19:34:26,909	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_dev.py changed, reloading.	process:23744	thread:14584
+[INFO]	asctime:2020-08-11 19:34:32,701	module:autoreload	message:Watching for file changes with StatReloader	process:2240	thread:11644
+[ERROR]	asctime:2020-08-11 19:34:42,187	module:log	message:Internal Server Error: /	process:2240	thread:5736
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 19:34:42,231	module:basehttp	message:"GET / HTTP/1.1" 500 79559	process:2240	thread:5736
+[INFO]	asctime:2020-08-11 19:38:13,273	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\urls.py changed, reloading.	process:2240	thread:11644
+[INFO]	asctime:2020-08-11 19:38:14,837	module:autoreload	message:Watching for file changes with StatReloader	process:21676	thread:21320
+[INFO]	asctime:2020-08-11 19:39:34,102	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\admin.py changed, reloading.	process:21676	thread:21320
+[INFO]	asctime:2020-08-11 19:39:35,734	module:autoreload	message:Watching for file changes with StatReloader	process:23572	thread:15860
+[INFO]	asctime:2020-08-11 19:40:02,267	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\admin.py changed, reloading.	process:23572	thread:15860
+[INFO]	asctime:2020-08-11 19:40:03,925	module:autoreload	message:Watching for file changes with StatReloader	process:23492	thread:22920
+[INFO]	asctime:2020-08-11 19:41:47,001	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:23492	thread:22920
+[INFO]	asctime:2020-08-11 19:41:48,600	module:autoreload	message:Watching for file changes with StatReloader	process:20108	thread:25304
+[INFO]	asctime:2020-08-11 19:42:24,501	module:autoreload	message:Watching for file changes with StatReloader	process:22568	thread:6372
+[ERROR]	asctime:2020-08-11 19:42:29,228	module:log	message:Internal Server Error: /	process:22568	thread:19452
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 19:42:29,266	module:basehttp	message:"GET / HTTP/1.1" 500 79254	process:22568	thread:19452
+[ERROR]	asctime:2020-08-11 19:42:30,890	module:log	message:Internal Server Error: /	process:22568	thread:19452
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-11 19:42:30,913	module:basehttp	message:"GET / HTTP/1.1" 500 79253	process:22568	thread:19452
+[INFO]	asctime:2020-08-11 19:46:02,462	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:22568	thread:6372
+[INFO]	asctime:2020-08-11 19:46:04,131	module:autoreload	message:Watching for file changes with StatReloader	process:23432	thread:7664
+[INFO]	asctime:2020-08-11 19:49:49,303	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_common.py changed, reloading.	process:23432	thread:7664
+[INFO]	asctime:2020-08-11 19:49:50,834	module:autoreload	message:Watching for file changes with StatReloader	process:12744	thread:24604
+[INFO]	asctime:2020-08-11 19:50:49,091	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_dev.py changed, reloading.	process:12744	thread:24604
+[INFO]	asctime:2020-08-11 19:50:50,666	module:autoreload	message:Watching for file changes with StatReloader	process:7436	thread:23240
+[INFO]	asctime:2020-08-11 19:51:02,101	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_dev.py changed, reloading.	process:7436	thread:23240
+[INFO]	asctime:2020-08-11 19:51:03,799	module:autoreload	message:Watching for file changes with StatReloader	process:22456	thread:11372
+[INFO]	asctime:2020-08-11 19:51:08,361	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_dev.py changed, reloading.	process:22456	thread:11372
+[INFO]	asctime:2020-08-11 19:51:10,074	module:autoreload	message:Watching for file changes with StatReloader	process:12720	thread:11208
+[INFO]	asctime:2020-08-11 19:52:03,228	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\urls.py changed, reloading.	process:12720	thread:11208
+[INFO]	asctime:2020-08-11 19:52:04,842	module:autoreload	message:Watching for file changes with StatReloader	process:24060	thread:25496
+[INFO]	asctime:2020-08-11 19:52:28,343	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\urls.py changed, reloading.	process:24060	thread:25496
+[INFO]	asctime:2020-08-11 19:52:30,028	module:autoreload	message:Watching for file changes with StatReloader	process:22244	thread:16716
+[INFO]	asctime:2020-08-11 19:53:06,948	module:autoreload	message:Watching for file changes with StatReloader	process:7632	thread:20248
+[INFO]	asctime:2020-08-11 19:54:40,571	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\urls.py changed, reloading.	process:7632	thread:20248
+[INFO]	asctime:2020-08-11 19:54:42,378	module:autoreload	message:Watching for file changes with StatReloader	process:24048	thread:17996
+[INFO]	asctime:2020-08-11 19:54:55,336	module:autoreload	message:Watching for file changes with StatReloader	process:24416	thread:23224
+[ERROR]	asctime:2020-08-11 19:56:13,923	module:log	message:Internal Server Error: /	process:24416	thread:24312
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[ERROR]	asctime:2020-08-11 19:56:13,967	module:basehttp	message:"GET / HTTP/1.1" 500 96260	process:24416	thread:24312
+[ERROR]	asctime:2020-08-11 20:00:21,772	module:log	message:Internal Server Error: /	process:24416	thread:24312
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[ERROR]	asctime:2020-08-11 20:00:21,810	module:basehttp	message:"GET / HTTP/1.1" 500 96527	process:24416	thread:24312
+[INFO]	asctime:2020-08-11 20:00:22,216	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_common.py changed, reloading.	process:24416	thread:23224
+[INFO]	asctime:2020-08-11 20:00:23,824	module:autoreload	message:Watching for file changes with StatReloader	process:21416	thread:7280
+[INFO]	asctime:2020-08-11 20:01:21,031	module:autoreload	message:Watching for file changes with StatReloader	process:4464	thread:21692
+[ERROR]	asctime:2020-08-11 20:01:24,914	module:log	message:Internal Server Error: /	process:4464	thread:23340
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[ERROR]	asctime:2020-08-11 20:01:24,955	module:basehttp	message:"GET / HTTP/1.1" 500 96528	process:4464	thread:23340
+[ERROR]	asctime:2020-08-11 20:02:20,122	module:log	message:Internal Server Error: /	process:4464	thread:23340
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[ERROR]	asctime:2020-08-11 20:02:20,154	module:basehttp	message:"GET / HTTP/1.1" 500 96527	process:4464	thread:23340
+[ERROR]	asctime:2020-08-11 20:04:06,960	module:log	message:Internal Server Error: /	process:4464	thread:23340
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[ERROR]	asctime:2020-08-11 20:04:06,990	module:basehttp	message:"GET / HTTP/1.1" 500 96527	process:4464	thread:23340
+[ERROR]	asctime:2020-08-11 20:04:13,092	module:log	message:Internal Server Error: /	process:4464	thread:23340
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[ERROR]	asctime:2020-08-11 20:04:13,121	module:basehttp	message:"GET / HTTP/1.1" 500 96527	process:4464	thread:23340
+[INFO]	asctime:2020-08-11 20:05:30,755	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\urls.py changed, reloading.	process:4464	thread:21692
+[INFO]	asctime:2020-08-11 20:05:32,340	module:autoreload	message:Watching for file changes with StatReloader	process:12488	thread:22292
+[INFO]	asctime:2020-08-11 20:05:32,903	module:basehttp	message:"GET / HTTP/1.1" 200 9134	process:12488	thread:8544
+[INFO]	asctime:2020-08-11 20:06:06,680	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\urls.py changed, reloading.	process:12488	thread:22292
+[INFO]	asctime:2020-08-11 20:06:08,293	module:autoreload	message:Watching for file changes with StatReloader	process:14708	thread:11160
+[INFO]	asctime:2020-08-11 20:06:08,790	module:basehttp	message:"GET / HTTP/1.1" 200 9134	process:14708	thread:20780
+[WARNING]	asctime:2020-08-11 20:11:24,010	module:log	message:Not Found: /admin/Accounts/customuser/add/	process:14708	thread:13040
+[WARNING]	asctime:2020-08-11 20:11:24,010	module:basehttp	message:"GET /admin/Accounts/customuser/add/ HTTP/1.1" 404 13971	process:14708	thread:13040
+[INFO]	asctime:2020-08-11 20:11:29,785	module:basehttp	message:"GET /admin/ HTTP/1.1" 302 0	process:14708	thread:13040
+[ERROR]	asctime:2020-08-11 20:11:30,657	module:log	message:Internal Server Error: /admin/login/	process:14708	thread:13040
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\admin\sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\auth\views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\auth\views.py", line 97, in get_context_data
+    current_site = get_current_site(self.request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 411, in get
+    num = len(clone)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 258, in __len__
+    self._fetch_all()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 198, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 133, in _record
+    return method(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+[ERROR]	asctime:2020-08-11 20:11:30,729	module:basehttp	message:"GET /admin/login/?next=/admin/ HTTP/1.1" 500 226960	process:14708	thread:13040
+[ERROR]	asctime:2020-08-11 20:11:36,681	module:log	message:Internal Server Error: /admin/login/	process:14708	thread:13040
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\admin\sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\auth\views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\auth\views.py", line 97, in get_context_data
+    current_site = get_current_site(self.request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 411, in get
+    num = len(clone)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 258, in __len__
+    self._fetch_all()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 198, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 133, in _record
+    return method(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+[ERROR]	asctime:2020-08-11 20:11:36,758	module:basehttp	message:"GET /admin/login/?next=/admin HTTP/1.1" 500 226939	process:14708	thread:13040
+[INFO]	asctime:2020-08-11 20:11:42,055	module:basehttp	message:"GET /admin HTTP/1.1" 301 0	process:14708	thread:13040
+[INFO]	asctime:2020-08-11 20:11:42,060	module:basehttp	message:"GET /admin/ HTTP/1.1" 302 0	process:14708	thread:13040
+[ERROR]	asctime:2020-08-11 20:11:42,439	module:log	message:Internal Server Error: /admin/login/	process:14708	thread:13040
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\admin\sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\auth\views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\auth\views.py", line 97, in get_context_data
+    current_site = get_current_site(self.request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 411, in get
+    num = len(clone)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 258, in __len__
+    self._fetch_all()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 198, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 133, in _record
+    return method(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+[ERROR]	asctime:2020-08-11 20:11:42,511	module:basehttp	message:"GET /admin/login/?next=/admin/ HTTP/1.1" 500 226964	process:14708	thread:13040
+[INFO]	asctime:2020-08-11 20:20:14,916	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\HelloAliber\settings_common.py changed, reloading.	process:14708	thread:11160
+[INFO]	asctime:2020-08-11 20:20:16,194	module:autoreload	message:Watching for file changes with StatReloader	process:18536	thread:17380
+[INFO]	asctime:2020-08-11 20:20:30,369	module:basehttp	message:"GET /admin/ HTTP/1.1" 302 0	process:18536	thread:24820
+[ERROR]	asctime:2020-08-11 20:20:31,228	module:log	message:Internal Server Error: /admin/login/	process:18536	thread:24820
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\admin\sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\auth\views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\auth\views.py", line 97, in get_context_data
+    current_site = get_current_site(self.request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 411, in get
+    num = len(clone)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 258, in __len__
+    self._fetch_all()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 198, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 133, in _record
+    return method(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+[ERROR]	asctime:2020-08-11 20:20:31,312	module:basehttp	message:"GET /admin/login/?next=/admin/ HTTP/1.1" 500 226961	process:18536	thread:24820
+[INFO]	asctime:2020-08-11 20:23:04,436	module:autoreload	message:Watching for file changes with StatReloader	process:12488	thread:14772
+[INFO]	asctime:2020-08-11 20:23:16,256	module:basehttp	message:"GET /admin/ HTTP/1.1" 302 0	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:16,947	module:basehttp	message:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 10935	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:16,983	module:basehttp	message:"GET /static/admin/css/base.css HTTP/1.1" 200 16378	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:16,985	module:basehttp	message:"GET /static/admin/css/login.css HTTP/1.1" 200 1233	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:16,994	module:basehttp	message:"GET /static/admin/css/responsive.css HTTP/1.1" 200 18052	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:23:17,003	module:basehttp	message:"GET /static/admin/css/fonts.css HTTP/1.1" 200 423	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:17,043	module:basehttp	message:"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:17,044	module:basehttp	message:"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:23:27,205	module:basehttp	message:"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:27,515	module:basehttp	message:"GET /admin/ HTTP/1.1" 200 15021	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:27,541	module:basehttp	message:"GET /static/admin/css/dashboard.css HTTP/1.1" 200 412	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:27,566	module:basehttp	message:"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:23:27,566	module:basehttp	message:"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:27,604	module:basehttp	message:"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:23:31,390	module:basehttp	message:"GET /admin/profile_app/department/ HTTP/1.1" 200 14246	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:23:31,422	module:basehttp	message:"GET /static/admin/css/changelists.css HTTP/1.1" 200 6190	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:23:31,433	module:basehttp	message:"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:31,439	module:basehttp	message:"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363	process:12488	thread:18116
+[INFO]	asctime:2020-08-11 20:23:31,444	module:basehttp	message:"GET /static/admin/js/actions.js HTTP/1.1" 200 6766	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:23:31,450	module:basehttp	message:"GET /static/admin/js/urlify.js HTTP/1.1" 200 8941	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:31,451	module:basehttp	message:"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530	process:12488	thread:18116
+[INFO]	asctime:2020-08-11 20:23:31,455	module:basehttp	message:"GET /static/admin/js/core.js HTTP/1.1" 200 5723	process:12488	thread:23728
+[INFO]	asctime:2020-08-11 20:23:31,458	module:basehttp	message:"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918	process:12488	thread:13168
+[INFO]	asctime:2020-08-11 20:23:31,461	module:basehttp	message:"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:31,611	module:basehttp	message:"GET /admin/jsi18n/ HTTP/1.1" 200 8752	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:31,652	module:basehttp	message:"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:35,966	module:basehttp	message:"GET /admin/profile_app/ HTTP/1.1" 200 12016	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:38,865	module:basehttp	message:"GET /admin/profile_app/profile/add/ HTTP/1.1" 200 27861	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:38,895	module:basehttp	message:"GET /static/admin/css/forms.css HTTP/1.1" 200 8518	process:12488	thread:16524
+[INFO]	asctime:2020-08-11 20:23:38,899	module:basehttp	message:"GET /static/admin/js/calendar.js HTTP/1.1" 200 7777	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:38,906	module:basehttp	message:"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20232	process:12488	thread:13168
+[INFO]	asctime:2020-08-11 20:23:38,913	module:basehttp	message:"GET /static/admin/css/widgets.css HTTP/1.1" 200 10322	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:38,920	module:basehttp	message:"GET /static/admin/js/change_form.js HTTP/1.1" 200 712	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:38,928	module:basehttp	message:"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:38,933	module:basehttp	message:"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392	process:12488	thread:17152
+[INFO]	asctime:2020-08-11 20:23:39,094	module:basehttp	message:"GET /admin/jsi18n/ HTTP/1.1" 200 8752	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:23:39,191	module:basehttp	message:"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:25:40,596	module:basehttp	message:"POST /admin/profile_app/profile/add/ HTTP/1.1" 302 0	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:25:40,977	module:basehttp	message:"GET /admin/profile_app/profile/ HTTP/1.1" 200 13710	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:25:41,169	module:basehttp	message:"GET /admin/jsi18n/ HTTP/1.1" 200 8752	process:12488	thread:1664
+[INFO]	asctime:2020-08-11 20:25:41,196	module:basehttp	message:"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436	process:12488	thread:1664
+[INFO]	asctime:2020-08-12 10:49:35,683	module:autoreload	message:Watching for file changes with StatReloader	process:23888	thread:25308
+[INFO]	asctime:2020-08-12 10:50:25,996	module:basehttp	message:"GET / HTTP/1.1" 200 9133	process:23888	thread:13664
+[INFO]	asctime:2020-08-12 10:50:26,081	module:basehttp	message:"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0	process:23888	thread:13664
+[INFO]	asctime:2020-08-12 10:50:26,088	module:basehttp	message:"GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0	process:23888	thread:12724
+[INFO]	asctime:2020-08-12 10:50:26,090	module:basehttp	message:"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0	process:23888	thread:13664
+[INFO]	asctime:2020-08-12 10:50:26,098	module:basehttp	message:"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0	process:23888	thread:24392
+[INFO]	asctime:2020-08-12 10:50:26,105	module:basehttp	message:"GET /static/debug_toolbar/img/djdt_vertical.png HTTP/1.1" 304 0	process:23888	thread:24392
+[INFO]	asctime:2020-08-12 10:52:36,307	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\urls.py changed, reloading.	process:23888	thread:25308
+[INFO]	asctime:2020-08-12 10:52:37,614	module:autoreload	message:Watching for file changes with StatReloader	process:15072	thread:10488
+[INFO]	asctime:2020-08-12 10:54:43,724	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\urls.py changed, reloading.	process:15072	thread:10488
+[INFO]	asctime:2020-08-12 10:54:44,999	module:autoreload	message:Watching for file changes with StatReloader	process:2388	thread:20332
+[WARNING]	asctime:2020-08-12 10:54:45,434	module:log	message:Not Found: //employeelist	process:2388	thread:19536
+[WARNING]	asctime:2020-08-12 10:54:45,435	module:basehttp	message:"GET //employeelist HTTP/1.1" 404 11630	process:2388	thread:19536
+[ERROR]	asctime:2020-08-12 10:55:11,707	module:log	message:Internal Server Error: /employeelist	process:2388	thread:19536
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-12 10:55:11,752	module:basehttp	message:"GET /employeelist HTTP/1.1" 500 79523	process:2388	thread:19536
+[INFO]	asctime:2020-08-12 10:55:59,054	module:autoreload	message:Watching for file changes with StatReloader	process:7752	thread:19616
+[ERROR]	asctime:2020-08-12 10:56:02,631	module:log	message:Internal Server Error: /employeelist	process:7752	thread:12348
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-12 10:56:02,692	module:basehttp	message:"GET /employeelist HTTP/1.1" 500 79656	process:7752	thread:12348
+[WARNING]	asctime:2020-08-12 10:56:26,783	module:log	message:Not Found: //employeelist	process:7752	thread:12348
+[WARNING]	asctime:2020-08-12 10:56:26,784	module:basehttp	message:"GET //employeelist HTTP/1.1" 404 11615	process:7752	thread:12348
+[ERROR]	asctime:2020-08-12 10:56:33,319	module:log	message:Internal Server Error: /employeelist	process:7752	thread:12348
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-12 10:56:33,367	module:basehttp	message:"GET /employeelist HTTP/1.1" 500 79519	process:7752	thread:12348
+[INFO]	asctime:2020-08-12 10:57:17,297	module:basehttp	message:"GET / HTTP/1.1" 200 9133	process:7752	thread:12348
+[INFO]	asctime:2020-08-12 11:05:29,543	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\urls.py changed, reloading.	process:7752	thread:19616
+[INFO]	asctime:2020-08-12 11:05:31,055	module:autoreload	message:Watching for file changes with StatReloader	process:22188	thread:25000
+[ERROR]	asctime:2020-08-12 11:05:58,000	module:log	message:Internal Server Error: /employeelist/	process:22188	thread:14616
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[ERROR]	asctime:2020-08-12 11:05:58,062	module:basehttp	message:"GET /employeelist/ HTTP/1.1" 500 79400	process:22188	thread:14616
+[WARNING]	asctime:2020-08-12 11:06:27,969	module:log	message:Not Found: //employeelist/	process:22188	thread:14616
+[WARNING]	asctime:2020-08-12 11:06:27,969	module:basehttp	message:"GET //employeelist/ HTTP/1.1" 404 11619	process:22188	thread:14616
+[INFO]	asctime:2020-08-12 11:06:57,348	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\urls.py changed, reloading.	process:22188	thread:25000
+[INFO]	asctime:2020-08-12 11:06:58,597	module:autoreload	message:Watching for file changes with StatReloader	process:9712	thread:18164
+[WARNING]	asctime:2020-08-12 11:06:59,034	module:log	message:Not Found: //employeelist/	process:9712	thread:2164
+[WARNING]	asctime:2020-08-12 11:06:59,034	module:basehttp	message:"GET //employeelist/ HTTP/1.1" 404 11619	process:9712	thread:2164
+[WARNING]	asctime:2020-08-12 11:07:00,509	module:log	message:Not Found: //employeelist/	process:9712	thread:2164
+[WARNING]	asctime:2020-08-12 11:07:00,509	module:basehttp	message:"GET //employeelist/ HTTP/1.1" 404 11619	process:9712	thread:2164
+[INFO]	asctime:2020-08-12 11:12:38,403	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:9712	thread:18164
+[INFO]	asctime:2020-08-12 11:12:39,784	module:autoreload	message:Watching for file changes with StatReloader	process:4556	thread:14760
+[INFO]	asctime:2020-08-12 11:14:52,993	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:4556	thread:14760
+[INFO]	asctime:2020-08-12 11:14:54,389	module:autoreload	message:Watching for file changes with StatReloader	process:348	thread:76
+[INFO]	asctime:2020-08-12 14:57:56,359	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:348	thread:76
+[INFO]	asctime:2020-08-12 14:57:58,123	module:autoreload	message:Watching for file changes with StatReloader	process:23404	thread:15824
+[INFO]	asctime:2020-08-12 14:59:08,878	module:basehttp	message:"GET / HTTP/1.1" 200 9133	process:23404	thread:22456
+[INFO]	asctime:2020-08-12 14:59:08,925	module:basehttp	message:"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12791	process:23404	thread:7376
+[INFO]	asctime:2020-08-12 14:59:08,925	module:basehttp	message:"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 14984	process:23404	thread:22456
+[INFO]	asctime:2020-08-12 14:59:08,949	module:basehttp	message:"GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404	process:23404	thread:22280
+[INFO]	asctime:2020-08-12 14:59:08,967	module:basehttp	message:"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 41	process:23404	thread:19548
+[INFO]	asctime:2020-08-12 14:59:08,971	module:basehttp	message:"GET /static/debug_toolbar/img/djdt_vertical.png HTTP/1.1" 200 882	process:23404	thread:22280
+[INFO]	asctime:2020-08-12 15:00:20,369	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\urls.py changed, reloading.	process:23404	thread:15824
+[INFO]	asctime:2020-08-12 15:00:22,074	module:autoreload	message:Watching for file changes with StatReloader	process:13440	thread:19976
+[INFO]	asctime:2020-08-12 15:01:49,467	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:13440	thread:19976
+[INFO]	asctime:2020-08-12 15:01:51,185	module:autoreload	message:Watching for file changes with StatReloader	process:15256	thread:13952
+[INFO]	asctime:2020-08-12 15:02:53,066	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:15256	thread:13952
+[INFO]	asctime:2020-08-12 15:02:54,971	module:autoreload	message:Watching for file changes with StatReloader	process:20820	thread:16248
+[ERROR]	asctime:2020-08-12 15:02:56,368	module:log	message:Internal Server Error: /	process:20820	thread:23852
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index
+[ERROR]	asctime:2020-08-12 15:02:56,441	module:basehttp	message:"GET / HTTP/1.1" 500 97008	process:20820	thread:23852
+[INFO]	asctime:2020-08-12 15:03:24,285	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:20820	thread:16248
+[INFO]	asctime:2020-08-12 15:03:26,215	module:autoreload	message:Watching for file changes with StatReloader	process:4280	thread:18676
+[INFO]	asctime:2020-08-12 15:03:28,787	module:basehttp	message:"GET / HTTP/1.1" 200 9133	process:4280	thread:12428
+[ERROR]	asctime:2020-08-12 15:03:54,182	module:log	message:Internal Server Error: /employee_list	process:4280	thread:12428
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py", line 21, in get_queryset
+    profiles = models.objects.order_by('user_id')
+AttributeError: module 'profile_app.models' has no attribute 'objects'
+[ERROR]	asctime:2020-08-12 15:03:54,251	module:basehttp	message:"GET /employee_list HTTP/1.1" 500 95135	process:4280	thread:12428
+[INFO]	asctime:2020-08-12 15:06:11,457	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\models.py changed, reloading.	process:4280	thread:18676
+[INFO]	asctime:2020-08-12 15:06:13,171	module:autoreload	message:Watching for file changes with StatReloader	process:10112	thread:23432
+[INFO]	asctime:2020-08-12 15:07:16,406	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\models.py changed, reloading.	process:10112	thread:23432
+[INFO]	asctime:2020-08-12 15:07:18,215	module:autoreload	message:Watching for file changes with StatReloader	process:19484	thread:18512
+[INFO]	asctime:2020-08-12 15:12:22,151	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:19484	thread:18512
+[INFO]	asctime:2020-08-12 15:12:23,987	module:autoreload	message:Watching for file changes with StatReloader	process:24336	thread:7844
+[INFO]	asctime:2020-08-12 15:15:32,487	module:autoreload	message:Watching for file changes with StatReloader	process:23596	thread:15584
+[ERROR]	asctime:2020-08-12 15:15:37,273	module:log	message:Internal Server Error: /employee_list	process:23596	thread:19876
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'login_test_app'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\urls\base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'login_test_app' is not a registered namespace
+[ERROR]	asctime:2020-08-12 15:15:37,363	module:basehttp	message:"GET /employee_list HTTP/1.1" 500 155086	process:23596	thread:19876
+[ERROR]	asctime:2020-08-12 15:18:19,058	module:log	message:Internal Server Error: /employee_list	process:23596	thread:19876
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 308, in render
+    if match:
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 280, in __bool__
+    self._fetch_all()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 1139, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 491, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 342, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 721, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 756, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\query.py", line 1570, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\query.py", line 1486, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'updated_at' into field. Choices are: address1, address2, birth, create_date, create_id, delete, department, emergency_contact_1_name, emergency_contact_1_phone, emergency_contact_1_relationship, emergency_contact_2_name, emergency_contact_2_phone, emergency_contact_2_relationship, emergency_contact_3_name, emergency_contact_3_phone, emergency_contact_3_relationship, first_name, first_name_k, gender, health_insurance, id, id_id, last_name, last_name_k, nationality, phone, postal_code, residence_card, update_date, update_id, user_id
+[ERROR]	asctime:2020-08-12 15:18:19,128	module:basehttp	message:"GET /employee_list HTTP/1.1" 500 212199	process:23596	thread:19876
+[ERROR]	asctime:2020-08-12 15:19:04,234	module:log	message:Internal Server Error: /employee_list	process:23596	thread:19876
+Traceback (most recent call last):
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\test\utils.py", line 95, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\template\defaulttags.py", line 308, in render
+    if match:
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 280, in __bool__
+    self._fetch_all()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 1139, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 491, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 342, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 721, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\compiler.py", line 756, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\query.py", line 1570, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Anone\venv_HelloAliber\lib\site-packages\django\db\models\sql\query.py", line 1486, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'updated_at' into field. Choices are: address1, address2, birth, create_date, create_id, delete, department, emergency_contact_1_name, emergency_contact_1_phone, emergency_contact_1_relationship, emergency_contact_2_name, emergency_contact_2_phone, emergency_contact_2_relationship, emergency_contact_3_name, emergency_contact_3_phone, emergency_contact_3_relationship, first_name, first_name_k, gender, health_insurance, id, id_id, last_name, last_name_k, nationality, phone, postal_code, residence_card, update_date, update_id, user_id
+[ERROR]	asctime:2020-08-12 15:19:04,307	module:basehttp	message:"GET /employee_list HTTP/1.1" 500 212199	process:23596	thread:19876
+[INFO]	asctime:2020-08-12 15:19:04,349	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:23596	thread:15584
+[INFO]	asctime:2020-08-12 15:19:06,009	module:autoreload	message:Watching for file changes with StatReloader	process:16252	thread:14516
+[INFO]	asctime:2020-08-12 15:20:14,703	module:autoreload	message:C:\Anone\venv_HelloAliber\HelloAliber\profile_app\views.py changed, reloading.	process:16252	thread:14516
+[INFO]	asctime:2020-08-12 15:20:16,238	module:autoreload	message:Watching for file changes with StatReloader	process:19516	thread:25588
+[INFO]	asctime:2020-08-12 15:21:19,348	module:autoreload	message:Watching for file changes with StatReloader	process:8296	thread:14416
+[INFO]	asctime:2020-08-12 15:21:24,720	module:basehttp	message:"GET /employee_list HTTP/1.1" 200 12487	process:8296	thread:22328
+[INFO]	asctime:2020-08-12 15:21:24,766	module:basehttp	message:"GET /static/css/mystyle.css HTTP/1.1" 200 198	process:8296	thread:24532
+[INFO]	asctime:2020-08-12 15:21:24,775	module:basehttp	message:"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155764	process:8296	thread:22328
+[INFO]	asctime:2020-08-12 15:21:24,776	module:basehttp	message:"GET /static/css/one-page-wonder.min.css HTTP/1.1" 200 2530	process:8296	thread:19472
+[INFO]	asctime:2020-08-12 15:21:24,787	module:basehttp	message:"GET /static/css/clean-blog.min.css HTTP/1.1" 200 6440	process:8296	thread:25316
+[INFO]	asctime:2020-08-12 15:21:24,794	module:basehttp	message:"GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78641	process:8296	thread:14712
+[INFO]	asctime:2020-08-12 15:21:24,801	module:basehttp	message:"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 88147	process:8296	thread:12200
