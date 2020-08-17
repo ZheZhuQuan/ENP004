@@ -7,7 +7,7 @@ from django.views import generic
 
 # モデル
 from .models import *
-from accounts.models import CustomUser
+# from accounts.models import CustomUser
 
 # メッセージ用
 from django.contrib import messages
