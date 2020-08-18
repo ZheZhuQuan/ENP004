@@ -84,9 +84,8 @@ DATABASES = {
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
+    # Similarityチェック不要
+    # {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator', },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
@@ -140,5 +139,9 @@ ACCOUNT_LOGOUT_REDIRECT_URL = 'accounts_login'
 ACCOUNT_LOGOUT_ON_GET = True
 ACCOUNT_EMAIL_SUBJECT_PREFIX = ''
 DEFAULT_FROM_EMAIL = 'admin@example.com'
+
+ACCOUNT_FORMS = {
+    'reset_password': 'accounts.forms.MyResetPasswordForm',
+}
 
 MEDIA_URL = '/media/'
