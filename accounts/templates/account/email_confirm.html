@@ -12,11 +12,12 @@
 
             {% if confirmation %}
 
-            <p>ユーザー登録を確定するには、以下のボタンを押してください。</p>
+            <p>ご入社おめでとうございます。
+登録が正常に完了しました。下のボタンをクリックし、ログインしてください。</p>
 
             <form method="post" action="{% url 'account_confirm_email' confirmation.key %}">
                 {% csrf_token %}
-                <button class="btn btn-primary" type="submit">確定</button>
+                <button class="btn btn-primary" type="submit">ログイン</button>
             </form>
 
             {% else %}

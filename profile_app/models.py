@@ -1,7 +1,8 @@
 from django.db import models
-from accounts.models import CustomUser
 import datetime
 from datetime import timedelta
+# from HelloAliber.accounts.models import CustomUser
+from accounts.models import CustomUser
 
 
 class Department(models.Model):

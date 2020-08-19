@@ -7,7 +7,8 @@ from django.views import generic
 
 # モデル
 from .models import *
-# from accounts.models import CustomUser
+# from HelloAliber.accounts.models import CustomUser
+from accounts.models import CustomUser
 
 # メッセージ用
 from django.contrib import messages
@@ -36,4 +37,19 @@ class EmployeeListView(generic.ListView):
 
     def get_queryset(self):
         profiles = Profile.objects.order_by('user_id')
+        return profiles
+
+
+class EmployeeView(generic.ListView, LoginRequiredMixin):
+    """社員詳細画面"""
+    model = Profile
+    template_name = "ENP002_employee.html"
+    context_object_name = 'member_list'
+
+    def get_queryset(self):
+        logger.info('ユーザー：{}'.format(self.request.user))
+        id = CustomUser
+        profiles = Profile.objects.filter(username=self.request.user).first()
+        users = CustomUser.objects.prefetch_related('p_names').order_by('last_login')
+
         return profiles
