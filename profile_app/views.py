@@ -7,7 +7,6 @@ from django.views import generic
 
 # モデル
 from .models import *
-# from HelloAliber.accounts.models import CustomUser
 from accounts.models import CustomUser
 
 # メッセージ用
@@ -48,8 +47,6 @@ class EmployeeView(generic.ListView, LoginRequiredMixin):
 
     def get_queryset(self):
         logger.info('ユーザー：{}'.format(self.request.user))
-        id = CustomUser
-        profiles = Profile.objects.filter(username=self.request.user).first()
-        users = CustomUser.objects.prefetch_related('p_names').order_by('last_login')
+        profiles = Profile.objects.filter(id=self.request.user.id).first()
 
         return profiles

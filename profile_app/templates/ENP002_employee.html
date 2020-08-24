@@ -76,7 +76,7 @@
                     <strong>メールアドレス：</strong>
                 </div>
                 <div class="col-9">
-                    pass
+                    {{ object_list.id.email }}
                 </div>
 
                 <div class="col-3">
@@ -98,6 +98,7 @@
                 </div>
                 <div class="col-9">
                 {{ object_list.address1 }}
+                    <br>
                 {{ object_list.address2 }}
                 </div>
 
@@ -128,8 +129,8 @@
                     <strong>部門：</strong>
                 </div>
                 <div class="col-9">
-                    {% if object_list.department %}
-                    {{ object_list.department }}
+                    {% if object_list.department_pro %}
+                    {{ object_list.department_pro }}
                     {% endif %}
                 </div>
 
@@ -137,27 +138,63 @@
                     <strong>権限：</strong>
                 </div>
                 <div class="col-9">
-                    pass
+                    {% if object_list.id.is_staff %}
+                    管理者
+                    {% else %}
+                    一般社員
+                    {% endif %}
                 </div>
 
                 <div class="col-3">
                     <strong>緊急連絡先：</strong>
                 </div>
                 <div class="col-9">
-                    pass
+                    <div class="cp_actab">
+                        <input id="tab-one" type="checkbox" name="tabs" checked/>
+                        <label for="tab-one">緊急連絡先１</label>
+                        <div class="cp_actab-content">
+                            <p>名前　　：{{ object_list.emergency_contact_1_name }}</p>
+                            <p>続柄　　：{{ object_list.emergency_contact_1_relationship }}</p>
+                            <p>電話番号：{{ object_list.emergency_contact_1_phone }}</p>
+                        </div>
+                    </div>
+
+                    {% if object_list.emergency_contact_2_name %}
+                    <div class="cp_actab">
+                        <input id="tab-two" type="checkbox" name="tabs" checked/>
+                        <label for="tab-two">緊急連絡先２</label>
+                        <div class="cp_actab-content">
+                            <p>名前　　：{{ object_list.emergency_contact_2_name }}</p>
+                            <p>続柄　　：{{ object_list.emergency_contact_2_relationship }}</p>
+                            <p>電話番号：{{ object_list.emergency_contact_2_phone }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% if object_list.emergency_contact_3_name %}
+                    <div class="cp_actab">
+                        <input id="tab-three" type="checkbox" name="tabs" checked/>
+                        <label for="tab-three">緊急連絡先３</label>
+                        <div class="cp_actab-content">
+                            <p>名前　　：{{ object_list.emergency_contact_3_name }}</p>
+                            <p>続柄　　：{{ object_list.emergency_contact_3_relationship }}</p>
+                            <p>電話番号：{{ object_list.emergency_contact_3_phone }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
                 </div>
 
                 <div class="col-3">
-                    <strong>更新日付：</strong>
+                    <strong>更新日時：</strong>
                 </div>
                 <div class="col-9">
-                {{ object_list.update_date }}
+                {{ object_list.update_date|date:"Y/n/d H:i" }}
                 </div>
                 <br>
                 <br>
-                <a class="btn btn-primary" href=#>編集</a>
-                <a class="btn btn-primary" href=#>削除</a>
-                <a class="btn btn-primary" href=#>戻る</a>
+                <a class="btn btn-primary" href=#>編集</a>&nbsp;
+                <a class="btn btn-primary" href=#>削除</a>&nbsp;
+                <a class="btn btn-primary" href=#>戻る</a>&nbsp;
             </div>
             <hr>
              {% else %}
