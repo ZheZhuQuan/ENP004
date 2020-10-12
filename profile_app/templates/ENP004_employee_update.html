@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block title %}社員詳細画面編集{% endblock %}
+{% block active_profile_show %}active{% endblock %}
+{% block head %}{% endblock %}
+{% block contents %}
+    <div class="container">
+        <div class="row">
+            <div class="my-div-style w-100">
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <table class="table">
+                        {{ form.as_table }}
+                    </table>
+                    <button class="btn btn-primary" type="submit">更新</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
